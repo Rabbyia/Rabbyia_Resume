@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>Article Title Goes Here</title>
-    <link rel="alternate" href="http://blog.url.com/2015/04/30/article-title-goes-here/"/>
-    <id>http://blog.url.com/2015/04/30/article-title-goes-here/</id>
+    <link rel="alternate" href="http://blog.url.com/2015/04/30/article-title-goes-here.html"/>
+    <id>http://blog.url.com/2015/04/30/article-title-goes-here.html</id>
     <published>2015-04-30T13:38:00-04:00</published>
     <updated>2015-04-30T13:38:49-04:00</updated>
     <author>
@@ -23,8 +23,8 @@
   </entry>
   <entry>
     <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article/"/>
-    <id>http://blog.url.com/2012/01/01/example-article/</id>
+    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
+    <id>http://blog.url.com/2012/01/01/example-article.html</id>
     <published>2011-12-31T19:00:00-05:00</published>
     <updated>2015-04-30T13:34:28-04:00</updated>
     <author>
