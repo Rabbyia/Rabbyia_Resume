@@ -1,0 +1,167 @@
+@charset "UTF-8";body {
+    background-color: pink;
+}
+
+#profile_pic {
+    width: 100px;
+}
+
+
+
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    background: #FDFDFD;
+}
+a{
+    color: rgba(57, 58, 58, 0.92);
+    text-decoration: none !important;
+}
+h1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container{
+    max-width: 890px;
+    height: 100%;
+    margin: 10px auto;
+    background: #FFF;
+    -moz-box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+/* main */
+
+#main header{
+    padding-left: 30px;
+}
+
+/* Photo */
+#photo{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#photo img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.7);
+    margin: 15px auto 20px auto;
+}
+
+#header, #featured, article{
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+}
+.row{
+    margin: 0;
+}
+
+/* Unit */
+.unit{
+    margin: 10px auto;
+}
+
+
+/* Featured */
+#featured blockquote{
+    margin: 20px;
+    border: 0;
+    text-align: center;
+}
+#featured p{
+    margin: 0;
+}
+#featured .fa{
+    color: #ABA7A7;
+}
+
+/*Social Links */
+#social-links{
+    margin: 10px 0;
+}
+#social-links .fa-lg{
+    font-size: 2em !important;
+}
+#social-links a .fa{
+    color: rgba(57, 58, 58, 0.92);
+}
+#social-links a .fa:hover, a:hover{
+    color: rgb(37, 145, 240);
+}
+/* footer */
+
+#footer {
+    padding: 10px 0;
+}
+/* other classes */
+.transition, a, .fa{
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.date-sm{
+    color: #6E6666;
+    font-size: 85%;
+    margin: auto 5px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fa{
+    margin-right: 5px;
+}
+
+/* Large Devices */
+@media (min-width: 768px) {
+    .right-lg{
+        text-align: right;
+    }
+}
+/* Mobile Devices */
+@media(max-width:767px){
+
+    body {
+        font-size: 14px;
+        text-align: justify;
+    }
+    h1{
+        margin-top: 5px;
+    }
+    h2{
+        text-align: center;
+    }
+    .container{
+        margin: 0;
+    }
+    .row div{
+        padding: 0;
+    }
+    #contact-info{
+        text-align: center;
+        padding: 0;
+    }
+    #photo img{
+        margin: 2px auto;
+    }
+    #featured blockquote{
+        margin: 0;
+        padding: 10px 0;
+        font-size: 14px;
+
+    }
+    #footer{
+        text-align: center;
+    }
+
+
+}
