@@ -1,4 +1,9 @@
-@charset "UTF-8";body {
+@charset "UTF-8";* {
+    font-family: 'ProximaNova_Regular, sans-serif;
+    font-weight: normal;
+}
+
+body {
     background-color: pink;
 }
 
@@ -22,8 +27,9 @@ a{
     text-decoration: none !important;
 }
 h1 {
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 900;
     margin-bottom: 5px;
 }
 
